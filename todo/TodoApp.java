@@ -23,7 +23,7 @@ public class TodoApp {
     public static void main(String[] args) {
         new TodoApp().run();
     }
-    // Основной цикл приложения: печать меню → чтение команды → обработка через switch.
+    // Основной цикл приложения. печать меню, чтение команды, обработка через switch.
     // Исключения ловим на уровне цикла, чтобы приложение не падало.
     private void run() {
         System.out.println("To-Do List");
